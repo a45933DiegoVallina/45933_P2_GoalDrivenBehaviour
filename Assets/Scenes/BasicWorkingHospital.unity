@@ -1432,6 +1432,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1031599828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1031599829}
+  - component: {fileID: 1031599830}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1031599829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031599828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.7, y: 0.5, z: -47.39}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1031599830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031599828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ddc052853b34a64ab65b7b5cda50ab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patientPrefab: {fileID: 8038906124754826232}
+  numPatients: 5
 --- !u!1 &1034050901
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,128 +2671,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 69243ecc647674c34950ef6f96d3133f, type: 3}
   m_PrefabInstance: {fileID: 1459010709}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1467574119
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.949441
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.274387
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7881807149238628900, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-      propertyPath: m_Name
-      value: Patient
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
---- !u!1 &1467574120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7881807149238628900, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
-  m_PrefabInstance: {fileID: 1467574119}
-  m_PrefabAsset: {fileID: 0}
---- !u!195 &1467574121
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467574120}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &1467574122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467574120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 283b73e5d147ada4b9920d2f97e5ec37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionName: Action
-  cost: 1
-  target: {fileID: 1000317771}
-  targetTag: 
-  duration: 0
-  preConditions: []
-  afterEffects:
-  - key: isWaiting
-    value: 0
-  agent: {fileID: 1467574121}
-  running: 0
---- !u!114 &1467574123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467574120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1c6e795efc247e4982b179747e5312a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 0}
-  currentAction: {fileID: 1467574122}
 --- !u!1001 &1489871247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3604,9 +3528,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1592830986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e82013e5ee894d90b1e90f3cbcdf92f, type: 3}
+  m_Script: {fileID: 11500000, guid: 49b9b9733f58eeb499d639aad8d76099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  states: {fileID: 1592830989}
 --- !u!114 &1592830989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4394,6 +4319,72 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2125174357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125174354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d866597953aed4ead2c1858199ec00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: GetPatient
+  cost: 1
+  target: {fileID: 0}
+  targetTag: 
+  duration: 0
+  preConditions:
+  - key: waitingPatient
+    value: 0
+  - key: FreeCubicle
+    value: 0
+  afterEffects:
+  - key: PickupPatient
+    value: 0
+  agent: {fileID: 0}
+  running: 0
+--- !u!114 &2125174358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125174354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c437e78b30f8bde498dc208d7974e4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions: []
+  currentAction: {fileID: 0}
+--- !u!114 &2125174359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125174354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9553b26abbdd6194a8a7f22f31b3a54a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Action
+  cost: 1
+  target: {fileID: 0}
+  targetTag: 
+  duration: 0
+  preConditions:
+  - key: PickupPatient
+    value: 0
+  afterEffects:
+  - key: TreatPatient
+    value: 0
+  agent: {fileID: 0}
+  running: 0
 --- !u!1 &2146182846
 GameObject:
   m_ObjectHideFlags: 0
@@ -4688,3 +4679,85 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6663269f9f244211a0009ab8e60c937, type: 3}
+--- !u!1001 &8038906124754826231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.949441
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.274387
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 203009167320754976, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 211145061944059572, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_Name
+      value: Patient
+      objectReference: {fileID: 0}
+    - target: {fileID: 211145061944059572, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749179479947796507, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: afterEffects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749179479947796507, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: preConditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749179479947796507, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: afterEffects.Array.data[0].key
+      value: isTreated
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749179479947796507, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+      propertyPath: preConditions.Array.data[0].key
+      value: atHospital
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+--- !u!1 &8038906124754826232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 211145061944059572, guid: 05eb5671db053814d82bf3ff34bd14f9, type: 3}
+  m_PrefabInstance: {fileID: 8038906124754826231}
+  m_PrefabAsset: {fileID: 0}
