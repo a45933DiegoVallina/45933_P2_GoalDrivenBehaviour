@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1467574123, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+      propertyPath: currentAction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467574123, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+      propertyPath: actions.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467574124, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+      propertyPath: afterEffects.Array.data[0].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467574124, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+      propertyPath: preConditions.Array.data[0].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467574126, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+      propertyPath: afterEffects.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467574126, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+      propertyPath: preConditions.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -85,10 +109,10 @@ MonoBehaviour:
   duration: 0
   preConditions:
   - key: isCured
-    value: 0
+    value: 4
   afterEffects:
   - key: isHome
-    value: 0
+    value: 4
   agent: {fileID: 0}
   running: 0
 --- !u!114 &1713152203
@@ -110,10 +134,10 @@ MonoBehaviour:
   duration: 5
   preConditions:
   - key: atHospital
-    value: 0
+    value: 3
   afterEffects:
   - key: isTreated
-    value: 0
+    value: 3
   agent: {fileID: 0}
   running: 0
 --- !u!114 &1713152204
